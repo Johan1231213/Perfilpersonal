@@ -1,0 +1,288 @@
+header{
+    background: rgb(35, 39, 94);
+    width: 100rem;
+    height: 6rem;
+    margin-top: -1rem;
+    margin-left: -1rem;
+    display: block;
+}
+.menu{
+    margin-left: 52rem;
+    display: flex;
+}
+.menu li{
+    margin-top: 60px;
+    list-style: none;
+}
+.menu li a{
+    text-decoration: none;
+    margin-right: 40px;
+    color: white;
+    font-size: 20px;
+    
+}
+.menu li a:hover{
+    transform: scale(1.1);
+    background: #0074c7;
+}
+.boton{
+    width: 20px;
+    height: 30px;
+    display: flex;
+    margin-left: 870px;
+    margin-top: -90px;
+   
+    
+}
+button{
+    border: none;
+    background: rgb(35, 39, 94);
+    font-size: 40px;
+}
+.boton1{
+    width: 20px;
+    height: 30px;
+    display: flex;
+    margin-left: 990px;
+    margin-top: -30px;
+   
+    
+}
+.boton2{
+    width: 20px;
+    height: 30px;
+    display: flex;
+    margin-left: 1160px;
+    margin-top: -29px;
+   
+    
+}
+.boton3{
+    width: 20px;
+    height: 30px;
+    display: flex;
+    margin-left: 1320px;
+    margin-top: -30px;
+   
+    
+}
+.general{
+    margin-top: 20px;
+    border: double;
+    border-color: black;
+    width: 1500px;
+    height: 1500px;
+    background: white;
+    
+}
+.menu li>ul{
+    background: rgb(28, 34, 107);
+    margin-top: 4px;
+    height: 10rem;
+    position: absolute;
+
+}
+.menu li>ul>li{
+    margin-top: 20px;
+}
+.submenu3{
+    visibility: hidden;
+    position: absolute;
+    transition: all 200ms ease;
+}
+.menu li ul a{
+    font-family: Arial, Helvetica, sans-serif;
+    border: black 2px solid;
+    text-transform: uppercase;
+    
+    
+}
+.menu li:hover ul{
+    visibility: visible;
+}
+.menu li ul:hover ul{
+    visibility: visible;
+}
+.submenu4{
+    visibility: hidden;
+    position: absolute;
+    transition: all 200ms ease;
+}
+
+.portada ul li img{
+    width: 90rem;
+    height: 20rem;
+    
+    
+}
+.portada ul{
+    list-style: none;
+    
+}
+.perfil img{
+    width:300px;
+    height:300px;
+    border-radius:150px;
+    border: white 2px solid;
+    margin-left: 590px;
+    margin-top: -120px;
+}
+
+.texto ul li a{
+    text-decoration: none;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-left: 470px;
+    
+}
+.texto ul li{
+    list-style: none;
+}
+.texto ul li:hover{
+    transform: scale(1.02);
+    transition: all 300ms ease;
+    
+}
+
+.sobremi{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.textosobremi1 h1{
+    color: white;
+}
+.textosobremi1 h2{
+    color: white;
+}
+.musica1{
+    width: 15rem;
+    height: 15rem;
+    overflow: hidden;
+    margin-left: 76rem;
+    margin-top: -48rem;
+}
+.musica1 ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 15s infinite;
+}
+.musica1 li{
+    list-style: none;
+    width: 100%;
+}
+.musica1 img{
+    width: 100%;
+}
+@keyframes slide{
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    95%{margin-left: -300%;}
+}
+.sobremi1{
+    width: 94rem;
+    height: 20rem;
+    background-image: url(../975793fff4eb682dcc396c2885a13f2f.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: -19rem;
+}
+.textosobremi1{
+    width: 25rem;
+}
+.m1{
+    width: 15rem;
+    height: 20rem;
+    overflow: hidden;
+    margin-top: 8rem;
+    margin-left: 2rem;
+    border: black 3px solid;
+    
+}
+.m1 img{
+    width: 100%;
+}
+.m2{
+    width: 15rem;
+    height: 20rem;
+    overflow: hidden;
+    margin-top: -20.4rem;
+    margin-left: 25rem;
+    border: black 3px solid;
+    
+}
+.m2 img{
+    width: 100%;
+}
+
+.m3{
+    width: 15rem;
+    height: 20rem;
+    overflow: hidden;
+    margin-top: -20.4rem;
+    margin-left: 48rem;
+    border: black 3px solid;
+    
+}
+.m3 img{
+    width: 100%;
+}
+
+.m4{
+    width: 15rem;
+    height: 20rem;
+    overflow: hidden;
+    margin-top: -20.4rem;
+    margin-left: 72rem;
+    border: black 3px solid;
+    
+}
+.m4 img{
+    width: 100%;
+}
+.final{
+    margin-top: 5rem;
+    background-color: #0074c7;
+    height: 12rem;
+    
+}
+.final ul{
+    display: flex;
+    margin-left: -18rem;
+    list-style: none;
+}
+.final li{
+    margin-left: 24rem;
+    margin-top: 2rem;
+    
+}
+.final a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif
+}
+.final li:hover{
+    transform: scale(1.5);
+    transition: all 300ms ease;
+    text-decoration: red;
+
+}
+.final h3{
+    color: red;
+}
+address{
+    width: 50rem;
+    margin-left: 20rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+

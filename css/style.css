@@ -1,0 +1,316 @@
+header{
+    background: rgb(35, 39, 94);
+    width: 100rem;
+    height: 6rem;
+    margin-top: -1rem;
+    margin-left: -1rem;
+    display: block;
+}
+.menu{
+    margin-left: 52rem;
+    display: flex;
+}
+.menu li{
+    margin-top: 60px;
+    list-style: none;
+}
+.menu li a{
+    text-decoration: none;
+    margin-right: 40px;
+    color: white;
+    font-size: 20px;
+    
+}
+.menu li a:hover{
+    transform: scale(1.1);
+    background: #0074c7;
+}
+.boton{
+    width: 20px;
+    height: 30px;
+    display: flex;
+    margin-left: 870px;
+    margin-top: -90px;
+   
+    
+}
+button{
+    border: none;
+    background: rgb(35, 39, 94);
+    font-size: 40px;
+}
+.boton1{
+    width: 20px;
+    height: 30px;
+    display: flex;
+    margin-left: 990px;
+    margin-top: -30px;
+   
+    
+}
+.boton2{
+    width: 20px;
+    height: 30px;
+    display: flex;
+    margin-left: 1160px;
+    margin-top: -29px;
+   
+    
+}
+.boton3{
+    width: 20px;
+    height: 30px;
+    display: flex;
+    margin-left: 1320px;
+    margin-top: -30px;
+   
+    
+}
+.general{
+    margin-top: 20px;
+    border: double;
+    border-color: black;
+    width: 1500px;
+    height: 1500px;
+    background: white;
+    
+}
+.menu li>ul{
+    background: rgb(28, 34, 107);
+    margin-top: 4px;
+    height: 10rem;
+    position: absolute;
+
+}
+.menu li>ul>li{
+    margin-top: 20px;
+}
+.submenu3{
+    visibility: hidden;
+    position: absolute;
+    transition: all 200ms ease;
+}
+.menu li ul a{
+    font-family: Arial, Helvetica, sans-serif;
+    border: black 2px solid;
+    text-transform: uppercase;
+    
+    
+}
+.menu li:hover ul{
+    visibility: visible;
+}
+.menu li ul:hover ul{
+    visibility: visible;
+}
+.submenu4{
+    visibility: hidden;
+    position: absolute;
+    transition: all 200ms ease;
+}
+
+.portada ul li img{
+    width: 90rem;
+    height: 20rem;
+    
+    
+}
+.portada ul{
+    list-style: none;
+    
+}
+.perfil img{
+    width:300px;
+    height:300px;
+    border-radius:150px;
+    border: white 2px solid;
+    margin-left: 50px;
+    margin-top: -120px;
+}
+
+.texto ul li a{
+    text-decoration: none;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-left: 2px;
+    
+}
+.texto ul li{
+    list-style: none;
+}
+.texto ul li:hover{
+    transform: scale(1.02);
+    transition: all 300ms ease;
+    
+}
+.subtexto h2{
+    width: 50rem;
+    margin-left: 670px;
+    margin-top: -15rem;
+    text-align: left;
+    border: black 3px solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sobremi{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sobremi h2{
+    width: 30rem;
+    margin-left: 50px;
+    margin-top: 8rem;
+    text-align: left;
+    
+}
+.imagen1{
+    width: 15rem;
+    height: 15rem;
+    overflow: hidden;
+    margin-left: 40rem;
+    margin-top: -60rem;
+    animation: slide 15s infinite alternate ease-in-out;
+    border: red 5px solid;
+}
+
+@keyframes slide{
+    25%{
+        background-image: url(../37i9dQZF1DZ06evO1saI48-large.jpg);
+        background-size: cover;
+        width: 15rem;
+    height: 15rem;
+    }
+    50%{
+        background-image: url(../ab67616d0000b273f6e138b27645971de2bbec63.jpg);
+        background-size: cover;
+        width: 15rem;
+    height: 15rem;
+    }
+    75%{
+        background-image: url(../ab6761610000e5eb05c38192ebb8faaceccfb1bc.jpg);
+        background-size: cover;
+        width: 15rem;
+    height: 15rem;
+    }
+    100%{
+        background-image: url(../large.jpg);
+        background-size: cover;
+        width: 15rem;
+    height: 15rem;
+    }
+}
+
+.imagen2{
+    width: 15rem;
+    height: 15rem;
+    overflow: hidden;
+    margin-left: 58rem;
+    margin-top: -250px;
+    animation: slide1 15s infinite alternate ease-in-out;
+    border: red 5px solid;
+}
+@keyframes slide1{
+    50%{
+        background-image: url(../maxresdefault.jpg);
+        background-size: cover;
+        width: 15rem;
+        height: 15rem;
+    }
+    100%{
+        background-image: url(../lucifer-lede-2-1024x576.jpg);
+        background-size: cover;
+        width: 15rem;
+        height: 15rem;
+    }
+}
+.imagen3{
+    width: 15rem;
+    height: 15rem;
+    overflow: hidden;
+    margin-left: 76rem;
+    margin-top: -250px;
+    animation: slide2 15s infinite alternate ease-in-out;
+    border: red 5px solid;
+}
+@keyframes slide2{
+    25%{
+        background-image: url(../9788417347765.jpg);
+        background-size: cover;
+        width: 15rem;
+    height: 15rem;
+    }
+    50%{
+        background-image: url(../51RudnaQCYL.jpg);
+        background-size: cover;
+        width: 15rem;
+    height: 15rem;
+    }
+    75%{
+        background-image: url(../sunreach.jpg);
+        background-size: cover;
+        width: 15rem;
+    height: 15rem;
+    }
+    100%{
+        background-image: url(../978846665754.jpg);
+        background-size: cover;
+        width: 15rem;
+    height: 15rem;
+    }
+}
+.mapa{
+    margin-top: 8rem;
+    margin-left: 4rem;
+    border: black 4px solid;
+    width: 80rem;
+    display: flex;
+    background-image: url(../2560px-Senati_Perú_logo.svg.png);
+    
+    
+    
+}
+
+.mapa h2{
+    width: 30rem;
+    margin-top: 4rem;
+    margin-left: 25rem;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: double;
+    color: black;
+}
+.final{
+    margin-top: 5rem;
+    background-color: #0074c7;
+    height: 12rem;
+    
+}
+.final ul{
+    display: flex;
+    margin-left: -18rem;
+    list-style: none;
+}
+.final li{
+    margin-left: 24rem;
+    margin-top: 2rem;
+    
+}
+.final a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif
+}
+.final li:hover{
+    transform: scale(1.5);
+    transition: all 300ms ease;
+    text-decoration: red;
+
+}
+.final h3{
+    color: red;
+}
+address{
+    width: 50rem;
+    margin-left: 20rem;
+    margin-top: 2rem;
+    text-align: center;
+}
